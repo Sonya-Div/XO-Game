@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO-Game</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>XO-Gaming</h1>
+        <h2>Welcome to the XO Game!</h2>
+        <p>the role of the player is to place their mark (X or O) on the grid in an attempt to get three in a row.</p>
+        <h3 id="game-status">Player X's turn</h3>
+        <div class="board">
+          <div class="cell" id="cell-0" onclick="boxClicked(0)"></div>
+          <div class="cell" id="cell-1" onclick="boxClicked(1)"></div>
+          <div class="cell" id="cell-2" onclick="boxClicked(2)"></div>
+          <div class="cell" id="cell-3" onclick="boxClicked(3)"></div>
+          <div class="cell" id="cell-4" onclick="boxClicked(4)"></div>
+          <div class="cell" id="cell-5" onclick="boxClicked(5)"></div>
+          <div class="cell" id="cell-6" onclick="boxClicked(6)"></div>
+          <div class="cell" id="cell-7" onclick="boxClicked(7)"></div>
+          <div class="cell" id="cell-8" onclick="boxClicked(8)"></div>
+          <div id="winning-line" class="win-line"></div>
+          <div class="winner-screen" id="winner-player"></div>
+        </div>
+        <!--board-end-->
+        <div class="result">
+            <button id="restart-button" onclick="restartGame()">Restart Game</button>
+        </div>
+        <!--result-end-->
+    </div>
+    <!--container-end-->
+    <script src="script.js"></script>
+</body>
+</html>
