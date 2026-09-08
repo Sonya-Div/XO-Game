@@ -150,13 +150,42 @@ body{
     font-weight: bold;
     border-radius: 10px;
 }
-@media (max-width:360px) {
-    .cell{
-        width: 80px;
-        height: 80px;
+@media (max-width: 1040px) {
+   .container {
+        padding: 20px 30px;
+        margin: 0 auto;
+    }
+    .board{
+        width: 100%;
+    }
+    .cell {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        font-size: 1.5rem;
+        height: auto;
         font-size: 1.5rem;
     }
-    .container h1{
+}
+@media (max-width:900px) {
+    .container {
+        padding: 15px 20px;
+    }
+}
+@media (max-width: 440px) {
+    .container {
+        padding: 20px 20px; 
+        width: 92%;
+    }
+    .container h1 {
         font-size: 1.8rem;
+    }
+    .container h2 {
+        font-size: 1.3rem; 
+    }
+    .container p {
+        font-size: 1rem;
+    }
+    .board {
+        gap: 8px; 
     }
 }
