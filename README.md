@@ -27,7 +27,7 @@ An interactive, responsive, and cinematic **Tic-Tac-Toe (XO)** web game built fr
 
 ### ✨ المميزات
 * **خط الفوز السينمائي:** يرتسم خط أحمر تفاعلي ومتحرك فوق المربعات الثلاثة الفائزة (أفقياً، عمودياً، أو قطرياً) بشكل دقيق.
-* **نظام التوقيت الذكي:** انتظار مبرمج لثانيتين لكي يرى اللاعب حركة الخط بنعومة قبل نزول ستارة النتيجة البيضاء.
+* **نظام التوقيت الذكي:** انتظار مبرمج لثانيو ونصف لكي يرى اللاعب حركة الخط بنعومة قبل نزول ستارة النتيجة البيضاء.
 * **مرونة كاملة (Responsive):** متوافقة تماماً وتتجاوب تلقائياً مع شاشات الهواتف الذكية، الأجهزة اللوحية، والشاشات المكتبية.
 * **كود نظيف ومنظم:** تعتمد الجافاسكريبت على مصفوفات تتبع مرنة وتفكيك ذكي لعناصر الفوز (Destructuring).
 
@@ -41,7 +41,7 @@ An interactive, responsive, and cinematic **Tic-Tac-Toe (XO)** web game built fr
 ## 🚀 How to Run the Project | كيف تشغل المشروع
 
 1. Clone or download this repository.
-2. Open the `index.html` file directly in any modern web browser.
+2. Open the ` https://sonya-div.github.io/XO-Game/` file directly in any modern web browser.
 ---
 1. قم بتحميل أو عمل Clone للمستودع.
-2. افتح ملف `index.html` مباشرة عبر أي متصفح إنترنت.
+2. افتح ملف ` https://sonya-div.github.io/XO-Game/` مباشرة عبر أي متصفح إنترنت.
